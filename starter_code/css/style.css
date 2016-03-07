@@ -1,0 +1,194 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600,800);
+
+
+body {
+	color: #000;
+	font-size: 12px;
+	line-height: 1.4;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #f0efef;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* top of the page */
+#container {
+	width: 960px;
+	margin: auto;
+}
+
+#top {
+	background-color: #033048;
+	height: 100px;
+}
+
+#top h1 {
+	margin-left: 100px;
+	padding-bottom: 10px;
+	display: inline-block;
+	color: white;
+}
+
+#top a {
+	color: #f9e42e;
+	text-decoration: none;
+
+}
+
+#top li {
+	padding-left: 100px;
+	display: inline-block;
+	font-size: 24px;
+}
+
+#top ul {
+	display: inline-block;
+	padding: 10px 10px 10px 200px;
+	text-align: center;
+}
+
+/* middle of the page */
+
+.blog h2 {
+	font-size: 40px;
+}
+
+.middle {
+	width: 60%;
+	margin-left: 100px;
+	display: inline-block;
+	margin-bottom: 100px;
+
+}
+
+.middle img {
+	width: 100%;
+}
+
+.p {
+	color: #606161;
+	font-size: 40px;
+
+}
+
+.blog p {
+	font-size: 24px;
+}
+
+.blog a {
+	padding-left: 700px;
+	font-size: 24px;
+}
+
+.blog hr {
+
+}
+
+/* side bar section */
+
+.sidebar {
+	color: #033048;
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;
+	margin-left: 20px;
+}
+
+
+
+.sidebar h3 {
+		font-size: 32px;
+		font-weight: 800px;
+
+}
+
+#category a {
+		font-size: 24px;
+		font-weight: 300px;
+		text-decoration: none;
+}
+
+#ad { 
+	background-color: white;
+}
+
+
+header {
+
+}
+
+
+#signup {
+	height: 100px;
+	background-color: #f9e42e;
+}
+
+footer {
+	height: 300px;
+	background-color: #121212;
+}
+
+#signup a {
+	border: 5px solid;
+	text-decoration: none;
+  	font-weight: 800;
+  	padding: 12px 0;
+  	width: 280px;
+  	font-size: 28px;
+  	text-align: center;
+  	display: block;
+  	margin: 0 auto;
+	background: #033048;
+	color: white;
+	border-radius: 5px;
+}
+
+
+footer {
+	background: #121212;
+	text-align: center;
+}
+
+footer p {
+	display: block;
+	text-align: center;
+	color: white;
+	margin-top: 50px;
+}
+
+footer h2 {
+	font-size: 24px;
+	color: #f9e42e;
+	text-align: center;
+}
+
+footer img {
+	padding: 0 10px 0 10px;
+	margin-top: 30px;
+}
+
+
+.hide {
+	display: none;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
